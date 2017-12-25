@@ -3,12 +3,13 @@
 As iOS 11 was released this gave the developers options to integrate trained ML models into their applications directly. *Core ML* processes the input, for example of an image and then use the mlmodel to predict the result based labels.
 This project we used 3 different plush animals for predicting which animal we currently are seeing, using the *ARKIT*. For training process I used *Microsoft Custom Vision AI* for creating the trained mlmodel, which is free to use. 
 
-![](screenshots/squirrel.PNG)
-*Recognizing a squirrel*
-![](screenshots/squid.PNG )
-*Recognizing a squid*
-![](screenshots/bear.PNG)
-*Recognizing a bear*
+![alt-text-1](screenshots/squirrel.PNG "Squirrel") ![alt-text-2](screenshots/squid.PNG "Squid")
+![alt-text-1](screenshots/bear.PNG "Bear") ![alt-text-2](screenshots/nothing.PNG "Nothing")
+<br /> *The model contains 4 types of training datasets:* <br />
+- Squirrel
+- Squid
+- Bear
+- Nothing
 
 ## Steps for Creating the Machine Learning Model:
 1. Take several pictures in different angles of the object/objects
